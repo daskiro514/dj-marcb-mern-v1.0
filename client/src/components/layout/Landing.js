@@ -202,7 +202,7 @@ const Landing = () => {
           <div className='h1 mb-4'>Latest Albums / Singles</div>
           <div className='row'>
             <div className='col-lg-4 col-md-6 my-3'>
-              <div className='shadow bg-white'>
+              <div className='shadow bg-white h-450'>
                 <div class="video-container">
                   <iframe title='settitle' src="https://www.youtube.com/embed/ft4jcPSLJfY" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
@@ -214,7 +214,7 @@ const Landing = () => {
               </div>
             </div>
             <div className='col-lg-4 col-md-6 my-3'>
-              <div className='shadow bg-white'>
+              <div className='shadow bg-white h-450'>
                 <div class="video-container">
                   <iframe title='settitle' src="https://www.youtube.com/embed/joTHLj2VZZ0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
@@ -226,7 +226,7 @@ const Landing = () => {
               </div>
             </div>
             <div className='col-lg-4 col-md-6 my-3'>
-              <div className='shadow bg-white'>
+              <div className='shadow bg-white h-450'>
                 <div class="video-container">
                   <iframe title='settitle' src="https://www.youtube.com/embed/1Wuxhz905Xg" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
@@ -238,7 +238,7 @@ const Landing = () => {
               </div>
             </div>
             <div className='col-lg-4 col-md-6 my-3'>
-              <div className='shadow bg-white'>
+              <div className='shadow bg-white h-450'>
                 <div class="video-container">
                   <iframe title='settitle' src="https://www.youtube.com/embed/UFUXdov7WkE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
