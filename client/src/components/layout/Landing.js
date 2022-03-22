@@ -8,6 +8,7 @@ import album1 from '../../img/album1.jpg'
 import album2 from '../../img/album2.jpg'
 import album3 from '../../img/album3.jpg'
 import album4 from '../../img/album4.jpg'
+import Footer from './Footer'
 
 const eventList = [
   {
@@ -252,9 +253,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <div className='footer'>
-        Footer
-      </div>
+      <Footer />
     </div>
   )
 }
