@@ -1,1 +1,6 @@
-# dj-marcb-mern-v1.0
+# Start
+npm run dev
+
+# Build
+cd client
+npm run build
