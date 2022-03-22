@@ -142,3 +142,18 @@
     min-height: 400px;
   }
 }
+
+.back-to-top {
+  color: grey;
+  border-radius: 50%;
+}
+
+.back-to-top:focus {
+  border: none !important;
+  outline: none;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+}

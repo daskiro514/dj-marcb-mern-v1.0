@@ -1,6 +1,7 @@
 import React from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from 'react-responsive-carousel'
+import BackToTop from "react-back-to-top-button"
 import homeSlider1 from '../../img/homeSlider1.jpg'
 import homeSlider2 from '../../img/homeSlider2.jpg'
 import homeSlider3 from '../../img/homeSlider3.jpg'
@@ -8,6 +9,7 @@ import album1 from '../../img/album1.jpg'
 import album2 from '../../img/album2.jpg'
 import album3 from '../../img/album3.jpg'
 import album4 from '../../img/album4.jpg'
+import Navbar from './Navbar'
 import Footer from './Footer'
 
 const eventList = [
@@ -59,9 +61,7 @@ const Landing = () => {
 
   return (
     <div className='landing'>
-      <div className='header'>
-        Header
-      </div>
+      <Navbar />
       <div className='home-slider'>
         <Carousel
           infiniteLoop={true}
@@ -204,8 +204,8 @@ const Landing = () => {
           <div className='row'>
             <div className='col-lg-4 col-md-6 my-3'>
               <div className='shadow bg-white h-450'>
-                <div class="video-container">
-                  <iframe title='settitle' src="https://www.youtube.com/embed/ft4jcPSLJfY" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div className="video-container">
+                  <iframe title='settitle' src="https://www.youtube.com/embed/ft4jcPSLJfY" frameBorder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
                 <div className='p-4 '>
                   <div className='h4'>David Guetta, Bebe Rexha & J Balvin - Say My Name (Official Video)</div>
@@ -216,8 +216,8 @@ const Landing = () => {
             </div>
             <div className='col-lg-4 col-md-6 my-3'>
               <div className='shadow bg-white h-450'>
-                <div class="video-container">
-                  <iframe title='settitle' src="https://www.youtube.com/embed/joTHLj2VZZ0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div className="video-container">
+                  <iframe title='settitle' src="https://www.youtube.com/embed/joTHLj2VZZ0" frameBorder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
                 <div className='p-4 '>
                   <div className='h4'>Full Set at Capital's Jingle Bell Ball 2018</div>
@@ -228,8 +228,8 @@ const Landing = () => {
             </div>
             <div className='col-lg-4 col-md-6 my-3'>
               <div className='shadow bg-white h-450'>
-                <div class="video-container">
-                  <iframe title='settitle' src="https://www.youtube.com/embed/1Wuxhz905Xg" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div className="video-container">
+                  <iframe title='settitle' src="https://www.youtube.com/embed/1Wuxhz905Xg" frameBorder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
                 <div className='p-4 '>
                   <div className='h4'>BEHIND THE SCENES OF DAVID GUETTA'S CAREER [2018 FG Interview]</div>
@@ -240,8 +240,8 @@ const Landing = () => {
             </div>
             <div className='col-lg-4 col-md-6 my-3'>
               <div className='shadow bg-white h-450'>
-                <div class="video-container">
-                  <iframe title='settitle' src="https://www.youtube.com/embed/UFUXdov7WkE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div className="video-container">
+                  <iframe title='settitle' src="https://www.youtube.com/embed/UFUXdov7WkE" frameBorder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
                 <div className='p-4 '>
                   <div className='h4'>David Guetta - Megamashup by Djs From Mars</div>
@@ -254,6 +254,14 @@ const Landing = () => {
         </div>
       </div>
       <Footer />
+      <BackToTop
+        showOnScrollUp={false}
+        showAt={100}
+        speed={1500}
+        easing="easeInOutQuint"
+      >
+        <span><i className='fa fa-chevron-circle-up'></i></span>
+      </BackToTop>
     </div>
   )
 }
