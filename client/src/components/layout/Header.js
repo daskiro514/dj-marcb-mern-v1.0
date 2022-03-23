@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom'
 import logo from '../../img/logo.png'
 import logo2 from '../../img/logo2.png'
 
-const Navbar = ({ color }) => {
+const Header = () => {
 
   return (
     <div>
-      <div className="navbar container-fluid position-fixed p-3 px-5 navbar-web" style={{ zIndex: 100, background: 'rgba(0,0,0,0.1)' }}>
+      <div className="navbar container-fluid p-3 px-5 navbar-web" style={{ zIndex: 100, background: 'rgba(0,0,0,0.1)' }}>
         <Link to="/">
-          <img alt='SETIMAGE' src={color === 'white' ? logo2 : logo} className='img-fluid' width='250px' />
+          <img alt='SETIMAGE' src={logo} className='img-fluid' width='250px' />
         </Link>
-        <div className={color === 'white' ? 'text-white' : ''}>
+        <div>
           <Link to='/' className='h6 mx-3'>Home</Link>
           <Link to='/7-credits' className='h6 mx-3'>'7'</Link>
           <Link to='/discography' className='h6 mx-3'>Discography</Link>
@@ -22,7 +22,7 @@ const Navbar = ({ color }) => {
         </div>
       </div>
 
-      <nav className="navbar container-fluid position-fixed navbar-expand-md navbar-dark navbar-mobile" style={{ zIndex: 100, background: 'rgba(0,0,0,0.2)' }}>
+      <nav className="navbar container-fluid navbar-expand-md navbar-dark navbar-mobile" style={{ zIndex: 100, background: 'rgba(0,0,0,0.2)' }}>
         <Link to="/">
           <img alt='SETIMAGE' src={logo2} className='img-fluid mr-3' width='250px' />
         </Link>
@@ -61,4 +61,4 @@ const Navbar = ({ color }) => {
   )
 }
 
-export default Navbar
+export default Header

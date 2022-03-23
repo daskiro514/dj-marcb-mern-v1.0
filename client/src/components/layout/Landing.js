@@ -107,56 +107,48 @@ const Landing = () => {
         <div className='container-fluid p-5'>
           <div className='h1'>Latest Albums / Singles</div>
           <div className='row'>
-            <div className='col-lg-6'>
-              <div className='row'>
-                <div className='col-md-6 p-4'>
-                  <div className='img-overlay'>
-                    <img alt='SETIMAGE' src={album1} className='img-fluid' />
-                    <div className='overlay-fade'></div>
-                    <p className='text-overlay ml-3'>
-                      David Guetta
-                      <br />
-                      <span className='font-weight-bold h4'>What Would You Do?</span>
-                    </p>
-                  </div>
-                </div>
-                <div className='col-md-6 p-4'>
-                  <div className='img-overlay'>
-                    <img alt='SETIMAGE' src={album2} className='img-fluid' />
-                    <div className='overlay-fade'></div>
-                    <p className='text-overlay ml-3'>
-                      David Guetta
-                      <br />
-                      <span className='font-weight-bold h4'>What Would You Do?</span>
-                    </p>
-                  </div>
-                </div>
+            <div className='col-lg-3 col-md-6 p-4'>
+              <div className='img-overlay'>
+                <img alt='SETIMAGE' src={album1} className='img-fluid' />
+                <div className='overlay-fade'></div>
+                <p className='text-overlay ml-3'>
+                  David Guetta
+                  <br />
+                  <span className='font-weight-bold h4'>What Would You Do?</span>
+                </p>
               </div>
             </div>
-            <div className='col-lg-6'>
-              <div className='row'>
-                <div className='col-md-6 p-4'>
-                  <div className='img-overlay'>
-                    <img alt='SETIMAGE' src={album3} className='img-fluid' />
-                    <div className='overlay-fade'></div>
-                    <p className='text-overlay ml-3'>
-                      David Guetta
-                      <br />
-                      <span className='font-weight-bold h4'>What Would You Do?</span>
-                    </p>
-                  </div>
-                </div>
-                <div className='col-md-6 p-4'>
-                  <div className='img-overlay'>
-                    <img alt='SETIMAGE' src={album4} className='img-fluid' />
-                    <div className='overlay-fade'></div>
-                    <p className='text-overlay ml-3'>
-                      David Guetta
-                      <br />
-                      <span className='font-weight-bold h4'>What Would You Do?</span>
-                    </p>
-                  </div>
-                </div>
+            <div className='col-lg-3 col-md-6 p-4'>
+              <div className='img-overlay'>
+                <img alt='SETIMAGE' src={album2} className='img-fluid' />
+                <div className='overlay-fade'></div>
+                <p className='text-overlay ml-3'>
+                  David Guetta
+                  <br />
+                  <span className='font-weight-bold h4'>What Would You Do?</span>
+                </p>
+              </div>
+            </div>
+            <div className='col-lg-3 col-md-6 p-4'>
+              <div className='img-overlay'>
+                <img alt='SETIMAGE' src={album3} className='img-fluid' />
+                <div className='overlay-fade'></div>
+                <p className='text-overlay ml-3'>
+                  David Guetta
+                  <br />
+                  <span className='font-weight-bold h4'>What Would You Do?</span>
+                </p>
+              </div>
+            </div>
+            <div className='col-lg-3 col-md-6 p-4'>
+              <div className='img-overlay'>
+                <img alt='SETIMAGE' src={album4} className='img-fluid' />
+                <div className='overlay-fade'></div>
+                <p className='text-overlay ml-3'>
+                  David Guetta
+                  <br />
+                  <span className='font-weight-bold h4'>What Would You Do?</span>
+                </p>
               </div>
             </div>
           </div>
